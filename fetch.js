@@ -44,6 +44,9 @@ const newProduct = { name: 'webcam', price: 700, brand: 'Lal' };
 
 // copy products array and then add newProduct 
 const newProducts = [...products, newProduct];
+// console.log(newProducts);
+
 // create a new array without one specific item 
 // remove phone means create a new array without the phone
 const remaining = products.filter(p => p.name !== 'phone');
+// console.log(remaining);
